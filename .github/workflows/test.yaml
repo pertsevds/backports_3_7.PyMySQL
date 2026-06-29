@@ -24,7 +24,7 @@ jobs:
         options: "--name=mysqld"
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Set up Python ${{ matrix.py }}
         uses: actions/setup-python@v5
         with:
